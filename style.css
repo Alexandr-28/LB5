@@ -1,0 +1,17 @@
+table{
+    border-collapse: collapse;
+    font-size: 20px;
+}
+
+td,th{
+    border: 1px solid black;
+}
+
+th{
+    background: #007dff;
+    color:white;
+}
+
+#pr{
+    font-size: 20px;
+}
