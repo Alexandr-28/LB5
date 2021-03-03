@@ -16,21 +16,7 @@
 </head>
 <body>
     <?php
-        // $expr="SELECT `NAME`,`YEAR`, `LITERATE` FROM `LITERATURE`";
-        // //$query=$pdo->prepare($expr);
-        // $res=$pdo->query($expr);
-        // echo"<br><br>";
-        // echo "<table><tr><th>Name</th><th>Year</th><th>Literate</th></tr>";
-        // while($row=$res->fetch()){
-        //     echo "<tr>";
-        //     echo "<td>".$row['NAME']."</td>";
-        //     echo "<td>".$row['YEAR']."</td>";
-        //     echo "<td>".$row['LITERATE']."</td>";
-        //     echo "</tr>";
-        // }
-        // echo "</table>";
-
-
+      
         $expr2="SELECT `PUBLISHER` FROM `LITERATURE`";
         $expr3="SELECT `YEAR` FROM `LITERATURE`";
         $expr4="SELECT `NAME` FROM `AUTHOR`"; 
