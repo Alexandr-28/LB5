@@ -1,3 +1,3 @@
 <?php
-    $pdo=new PDO("mysql:host=localhost;dbname=lb1;", "", "");
+    $pdo=new PDO("mysql:host=localhost;dbname=;", "", "");
 ?>
